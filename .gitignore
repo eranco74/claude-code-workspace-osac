@@ -9,8 +9,9 @@ kubeconfig
 # Go local workspace
 .local/
 
-# GSD planning artifacts
-.planning/
+# GSD planning artifacts (but keep codebase docs)
+.planning/*
+!.planning/codebase/
 
 # Claude Code
 .claude/
